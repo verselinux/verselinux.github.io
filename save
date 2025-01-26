@@ -1,5 +1,8 @@
 #!/bin/bash
-git add pt-br index.html docs downloads README.md style.css favicon.ico
+git add pt-br index.html docs downloads style.css favicon.ico
+
 git commit -m "commit"
+
 git branch -M main
+
 git push -u origin main
