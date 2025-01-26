@@ -1,3 +1,46 @@
 header{
-    
+    width: 85%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+#linkbar{
+    padding-top: 3vh;
+    list-style: none;
+    text-align: right;
+}
+#logo{
+    width: 10vh;
+    height: 10vh;
+    top: 2vh;
+    position: absolute;
+    padding-left: 2vh;
+}
+
+#logoa {
+    text-decoration: none;
+    text-align: end;
+    color: #99C1F1;
+    font-size: 5vh;
+    position: absolute;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#linkbar li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    transition: 0.5s;
+
+}
+#linkbar li a:hover{
+    color: #0c0;
+    transition: 0.5s;
+}
+#linkbar li{
+    display: inline-block;
+    padding-left: 2.5%;
 }
