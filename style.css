@@ -1,5 +1,5 @@
 header{
-    width: 85%;
+    width: 95%;
     top: 0;
     left: 0;
     position: fixed;
@@ -22,7 +22,7 @@ header{
     text-decoration: none;
     text-align: end;
     color: #99C1F1;
-    font-size: 5vh;
+    font-size: 1vh;
     position: absolute;
 }
 
