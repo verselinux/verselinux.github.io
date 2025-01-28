@@ -2,7 +2,7 @@ header{
     width: 95%;
     top: 0;
     left: 0;
-    position: fixed;
+
 }
 
 #linkbar{
@@ -22,17 +22,43 @@ header{
     text-decoration: none;
     text-align: end;
     color: #99C1F1;
-    font-size: 1vh;
     position: absolute;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#banner{
+    top: 10vh;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+#bannerlogo {
+    position: absolute;
+    height: 75vh;
+    top: -10vh;
+}
+#banner h1{
+    text-align: center;
+    left: 45vw;
+    position: relative;
+    font-weight: 450;
+    width: 50vw;
+
+}
+#banner h2{
+    text-align: center;
+    position: relative;
+    left: 45vw;
+    font-weight: 450;
+    width: 50vw;
 }
 #linkbar li a{
     text-decoration: none;
     color: #000;
-    font-size: 2.8vh;
+    font-size: 1.8vw;
     transition: 0.5s;
 
 }
