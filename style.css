@@ -2,7 +2,6 @@ header{
     width: 95%;
     top: 0;
     left: 0;
-
 }
 
 #linkbar{
@@ -37,6 +36,11 @@ body{
 }
 #bannerlogo {
     position: absolute;
+    height: 75%;
+    top: -10vh;
+}
+#bannerlogop {
+    position: relative;
     height: 75%;
     top: -10vh;
 }
