@@ -37,8 +37,8 @@ body{
 }
 #bannerlogo {
     position: absolute;
-    height: 10vh;
-    width: 10vw;
+    height: 75%;
+    width: 75%;
     top: -10vh;
 }
 #banner h1{
