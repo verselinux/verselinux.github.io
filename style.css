@@ -1,75 +1,66 @@
 header{
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: 9vh;
+    background-color: #000;
+}
+
+header div{
     width: 95%;
     top: 0;
     left: 0;
+    
 }
-
 #linkbar{
-    padding-top: 3vh;
+    text-justify: ;
     list-style: none;
     text-align: right;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }
 #logo{
-    width: 10vh;
-    height: 10vh;
-    top: 2vh;
+    width: 4vw;
+    height: 9vh;
+
     position: absolute;
     padding-left: 2vh;
+
 }
 
 #logoa {
     text-decoration: none;
     text-align: end;
-    color: #99C1F1;
-    position: absolute;
+    width: 0;
+    
+    display: block;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 #banner{
-    top: 10vh;
-    width: 100%;
-    height: 75vh;
-    position: relative;
-}
-#bannerlogo {
-    position: absolute;
-    height: 75%;
-    top: -10vh;
-}
-#bannerlogop {
-    position: relative;
-    height: 75%;
-    top: -10vh;
+    background-color: #000;
+    padding: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5vw;
 }
 #banner h1{
-    text-align: center;
-    left: 45vw;
-    position: relative;
-    font-weight: 450;
-    width: 50vw;
+    font-family: 'Playfair Display', serif;
+}
 
-}
-#banner h2{
-    text-align: center;
-    position: relative;
-    left: 45vw;
-    font-weight: 450;
-    width: 50vw;
-}
 #linkbar li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 1.8vw;
     transition: 0.5s;
+}
 
-}
-#linkbar li a:hover{
-    color: #0c0;
-    transition: 0.5s;
-}
 #linkbar li{
     display: inline-block;
     padding-left: 2.5%;
