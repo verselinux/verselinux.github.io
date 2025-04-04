@@ -14,8 +14,3 @@ function phone() {
      }
 }
 
-isphone = phone()
-if (isphone) {
-    var bannerlogo = document.getElementById("bannerlogo")
-    bannerlogo.id = "bannerlogop"
-}
