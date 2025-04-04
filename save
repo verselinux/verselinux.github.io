@@ -1,5 +1,5 @@
 #!/bin/bash
-git add . docs downloads pt
+git add . docs downloads pt-br
 git commit -m "commit"
 git branch -M main
 git push -u origin main
