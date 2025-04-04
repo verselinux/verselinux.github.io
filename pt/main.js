@@ -15,6 +15,6 @@ function phone() {
 }
 
 var ln = navigator.language || navigator.userLanguage;
-if (ln == en) {
+if (ln == 'en') {
   window.location.href = 'https://verselinux.github.io/'
 }
