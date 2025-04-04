@@ -66,13 +66,15 @@ body{
     margin: 0;
 }
 #b-linkbar li a{
-    border-radius: 20px;
+    border-radius: 5vw;
     background-color: #361888;
     text-decoration: none;
     display: inline-block;
-    width: 20vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     align-content: center;
-    height: 10vh;
     color: #fff;
     position: relative;
     font-size: 1.8vw;
