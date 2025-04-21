@@ -47,6 +47,8 @@ body{
     color: #fff;
     font-size: 2.5vw;
     background-image: url('img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #banner h1{
